@@ -1,2 +1,2 @@
 # bridgelabz_java
-BridgeLabz Java Training – Daily Progress &amp; Practice Programs
+Base structure - see feature/* branches for code

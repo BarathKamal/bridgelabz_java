@@ -2,34 +2,45 @@ package com.bridgelabz.java_arrays.level_2;
 
 import java.util.Scanner;
 
-public class LargestDigitProblem {
+public class LargestDigitProblem2 {
     public static void main(String[] args) {
+        /*
+        Program to find the largest and the second largest digit in a given number
+        (there is no maximum number of digits constraint)
+         */
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
-        int originalNum = scanner.nextInt();
+        long originalNum = scanner.nextLong();
         scanner.nextLine();
 
         int maxDigit = 10;
+        long[] digitArray = new long[maxDigit];
         int index = 0;
-        int num = originalNum;
-        int[] digitArray = new int[maxDigit];
+        long num = originalNum;
 
         while (num != 0) {
-            int digit = num % 10;
+            long digit = num % 10;
             digitArray[index] = digit;
             num /= 10;
             index += 1;
 
             if (index == maxDigit) {
-                break;
+                maxDigit += 10;
+                long[] temp = new long[maxDigit];
+
+                for (int i = 0; i < index; i++) {
+                    temp[i] = digitArray[i];
+                }
+
+                digitArray = temp;
             }
         }
 
-        int largestDigit = 0;
-        int secondLargestDigit = 0;
+        long largestDigit = 0;
+        long secondLargestDigit = 0;
 
-        for (int digit : digitArray) {
+        for (long digit : digitArray) {
             if (digit > largestDigit) {
                 secondLargestDigit = largestDigit;
                 largestDigit = digit;

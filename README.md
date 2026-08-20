@@ -9,3 +9,6 @@
 | 15-08-2026 | Control Flow - Level 2 problems                                                                                                                                                  | None                      |
 | 16-08-2026 | Control Flow - Level 3 problems, Programming Elements - 1 more Level 1 problem                                                                                                   | None                      |
 | 17-08-2026 | Garbage collector, Arrays (1D, Multi-Dimensional), System.arraycopy(), Arrays - Level 1 problems, Level 2 (2 problems)                                                           | Increasing the array size |
+| 18-08-2026 | Arrays - Level 2 problems, Java Methods, Methods - Level 1, Level 2 problems                                                                                                     | Array Level 3 problems    |
+| 19-08-2026 | Java Methods - Level 3 problems, Strings, Strings - Level 1, 2, and 3 problems                                                                                                   | Strings Level 3 problems  |
+| 20-08-2026 | Java Core Programming - Revision                                                                                                                                                 | None                      |

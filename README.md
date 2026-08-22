@@ -12,3 +12,4 @@
 | 18-08-2026 | Arrays - Level 2 problems, Java Methods, Methods - Level 1, Level 2 problems                                                                                                     | Array Level 3 problems    |
 | 19-08-2026 | Java Methods - Level 3 problems, Strings, Strings - Level 1, 2, and 3 problems                                                                                                   | Strings Level 3 problems  |
 | 20-08-2026 | Java Core Programming - Revision                                                                                                                                                 | None                      |
+| 21-08-2026 | Java OOP: Classes and Objects - Procedural Programming, OO Programming, Classes, Objects, Level 1 and Level 2 problems                                                           | None                      |

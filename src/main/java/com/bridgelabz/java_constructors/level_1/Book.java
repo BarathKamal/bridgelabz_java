@@ -13,14 +13,13 @@ public class Book {
     private String title;
     private String author;
     private int price;
-    private boolean availability;
+    private boolean availability = true;
 
     // Default constructor
     public Book() {
         title = "Default book";
         author = "Default author";
         price = 100;
-        availability = true;
     }
 
     // Parameterized constructor
@@ -28,7 +27,6 @@ public class Book {
         this.title = title;
         this.author = author;
         this.price = price;
-        availability = true;
     }
 
     // Instance method to borrow a book

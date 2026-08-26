@@ -14,4 +14,6 @@
 | 20-08-2026 | Java Core Programming - Revision                                                                                                                                                 | None                      |
 | 21-08-2026 | Java OOP: Classes and Objects - Procedural Programming, OO Programming, Classes, Objects, Level 1 and Level 2 problems                                                           | None                      |
 | 22-08-2026 | Java Object Oriented Programming - Overview                                                                                                                                      | None                      |
-| 24-08-2026 | Java OOP: Java Constructors - Constructors, Types, Access Modifiers, Instance vs Class variables, Level 1 and Level 2 problems                                                   | None                      |
+| 24-08-2026 | Java OOP: Java Constructors - Constructors, Types, Access Modifiers, Instance vs Class variables, Level 1 problems                                                               | None                      |
+| 25-08-2026 | Java OOP: Java Constructors - Constructors Level 2 problems, Java keywords - static, this, final and instanceof                                                                  | None                      |
+| 26-08-2026 | Java OOP: Java Keywords - Practice Problems, Java Object Modeling and class diagram theory                                                                                       | None                      |

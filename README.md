@@ -18,3 +18,4 @@
 | 25-08-2026 | Java OOP: Java Constructors - Constructors Level 2 problems, Java keywords - static, this, final and instanceof                                                                  | None                      |
 | 26-08-2026 | Java OOP: Java Keywords - Practice Problems, Java Object Modeling and class diagram theory                                                                                       | None                      |
 | 27-08-2026 | Java OOP: Java Object Modeling and class diagram - balance theory revision, 3 problems                                                                                           | None                      |
+| 28-08-2026 | Java OOP: Java Object Modeling - 1 more problem, Java Inheritance - Balance theory and 3 problems                                                                                | None                      |

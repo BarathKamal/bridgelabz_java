@@ -10,7 +10,7 @@ Program to
 public class Company {
     private String name;
     private List<Department> departments = new ArrayList<>();
-    private int nextDeptId = 1;
+    private static int nextDeptId = 1;
 
     public Company(String name) {
         this.name = name;
@@ -24,12 +24,12 @@ public class Company {
         nextDeptId++;
     }
 
-    // get the department using deptId
+    // gets the department using deptId
     public Department getDepartment(int deptId) {
         return departments.get(deptId - 1);
     }
 
-    // display the list of departments
+    // displays the list of departments
     public void displayDepartments() {
         System.out.println("List of departments in company " + name + ": ");
         for (Department department : departments) {
@@ -43,7 +43,7 @@ class Department {
     private String companyName;
     private String name;
     List<Employee> employees = new ArrayList<>();
-    private int nextEmployeeId = 1;
+    private static int nextEmployeeId = 1;
 
     public Department(int id, String companyName, String name) {
         this.id = id;
@@ -100,24 +100,24 @@ class CompanyMain {
         // company object creation
         Company company = new Company("Wells Fargo");
 
-        // departments creation
+        // department creation
         company.createDepartment("AI");
         company.createDepartment("Devops");
 
-        // employee creation in with deptId 1
+        // employee creation in department with deptId 1
         Department dept1 = company.getDepartment(1);
         dept1.createEmployee("Velan");
         dept1.createEmployee("Suri");
 
-        // employee creation in dept with deptId 2
+        // employee creation in department with deptId 2
         Department dept2 = company.getDepartment(2);
         dept2.createEmployee("Arivu");
         dept2.createEmployee("Anbu");
 
-        // display of the list of departments
+        // displays the list of departments
         company.displayDepartments();
 
-        // display of the list of employees
+        // displays the list of employees
         dept1.displayEmployees();
         dept2.displayEmployees();
     }

@@ -6,7 +6,7 @@ Program to
 2. demonstrate the inheritance, method overriding and polymorphism
  */
 
-// super class Animal
+// superclass Animal
 public class Animal {
     private String name;
     private int age;
@@ -16,7 +16,7 @@ public class Animal {
     }
 }
 
-// sub class Dog
+// subclass Dog
 class Dog extends Animal {
     // overridden method
     @Override
@@ -25,7 +25,7 @@ class Dog extends Animal {
     }
 }
 
-// sub class Cat
+// subclass Cat
 class Cat extends Animal {
     // overridden method
     @Override
@@ -34,7 +34,7 @@ class Cat extends Animal {
     }
 }
 
-// sub class Bird
+// subclass Bird
 class Bird extends Animal {
     // overridden method
     @Override

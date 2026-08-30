@@ -28,10 +28,10 @@ public class Employee {
 
 // subclass Manager
 class Manager extends Employee {
-    private int teamSize; // subclass's attribute
+    private int teamSize; // subclass specific attribute
 
     public Manager(int id, String name, int salary, int teamSize) {
-        super(id, name, salary);
+        super(id, name, salary); // constructor chaining
         this.teamSize = teamSize; // additional initialization
     }
 
@@ -48,10 +48,10 @@ class Manager extends Employee {
 
 // subclass Developer
 class Developer extends Employee {
-    private String programmingLanguage; // subclass's attribute
+    private String programmingLanguage; // subclass specific attribute
 
     public Developer(int id, String name, int salary, String programmingLanguage) {
-        super(id, name, salary);
+        super(id, name, salary); // constructor chaining
         this.programmingLanguage = programmingLanguage; // additional initialization
     }
 
@@ -70,7 +70,7 @@ class Developer extends Employee {
 class Intern extends Employee {
     public Intern(int id, String name, int salary) {
         super(id, name, salary);
-    }
+    } // constructor chaining
 
     // method overriding
     @Override

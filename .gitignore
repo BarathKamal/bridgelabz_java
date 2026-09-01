@@ -4,4 +4,5 @@
 # Compiled Java Output
 out/
 
-src/main/java/com/bridgelabz/java_uml_diagrams
+# UML Diagram Practice
+src/main/java/com/bridgelabz/java_uml_diagrams/

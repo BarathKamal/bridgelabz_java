@@ -19,3 +19,7 @@
 | 26-08-2026 | Java OOP: Java Keywords - Practice Problems, Java Object Modeling and class diagram theory                                                                                       | None                      |
 | 27-08-2026 | Java OOP: Java Object Modeling and class diagram - balance theory revision, 3 problems                                                                                           | None                      |
 | 28-08-2026 | Java OOP: Java Object Modeling - 1 more problem, Java Inheritance - Balance theory and 3 problems                                                                                | None                      |
+| 29-08-2026 | Java OOP: Java Inheritance - Practice Problems, Java OOP Core - Encapsulation, Polymorphism, Abstract Classes and Interface Theory Part 1                                        | None                      |
+| 31-08-2026 | Java OOP: Java OOP Core - Theory part 2, Problems, Class and sequence diagrams                                                                                                   | None                      |
+| 01-09-2026 | Java OOP: Factory Robot Hazard Analyzer Implementation till Use Case 5, Company Interaction Preparation                                                                          | None                      |
+| 02-09-2026 | Java OOP: Factory Robot Hazard Analyzer Balance Use case implementation and Java OOP revision                                                                                    | None                      |

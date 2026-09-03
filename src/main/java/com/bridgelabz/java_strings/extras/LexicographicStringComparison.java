@@ -1,0 +1,45 @@
+package com.bridgelabz.java_strings.extras;
+
+import java.util.Scanner;
+/*
+Program to find which of the given two strings comes first based on lexicographic order
+ */
+public class LexicographicStringComparison {
+
+    static int compareStrings(String str1, String str2) {
+        int minLength = Math.min(str1.length(), str2.length());
+
+        for (int i = 0; i < minLength; i++) {
+            char ch1 = str1.charAt(i);
+            char ch2 = str2.charAt(i);
+
+            if (ch1 != ch2) {
+                return ch1 - ch2;
+            }
+        }
+
+        return str1.length() - str2.length();
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter String 1: ");
+        String str1 = sc.nextLine();
+
+        System.out.print("Enter String 2: ");
+        String str2 = sc.nextLine();
+
+        int result = compareStrings(str1, str2);
+
+        if (result < 0) {
+            System.out.println(str1 + " comes before " + str2);
+        }
+        else if (result > 0) {
+            System.out.println(str1 + " comes after " + str2);
+        }
+        else {
+            System.out.println("Both strings are equal");
+        }
+    }
+}

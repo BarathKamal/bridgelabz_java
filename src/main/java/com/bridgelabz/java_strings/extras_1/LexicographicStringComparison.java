@@ -1,4 +1,4 @@
-package com.bridgelabz.java_strings.extras;
+package com.bridgelabz.java_strings.extras_1;
 
 import java.util.Scanner;
 /*

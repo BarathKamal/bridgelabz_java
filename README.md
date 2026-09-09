@@ -23,3 +23,10 @@
 | 31-08-2026 | Java OOP: Java OOP Core - Theory part 2, Problems, Class and sequence diagrams                                                                                                   | None                      |
 | 01-09-2026 | Java OOP: Factory Robot Hazard Analyzer Implementation till Use Case 5, Company Interaction Preparation                                                                          | None                      |
 | 02-09-2026 | Java OOP: Factory Robot Hazard Analyzer Balance Use case implementation and Java OOP revision                                                                                    | None                      |
+| 03-09-2026 | Java DSA: Introduction to Data structures, key features, types of data structures, singly linked list (theory)                                                                   | None                      |
+| 04-09-2026 | Java DSA: Singly linked list implementation - insertion (3 cases), deletion (3 cases)                                                                                            | None                      |
+| 05-09-2026 | Java DSA: Singly Linked List - search, update, 4 problems, Doubly linked list (theory)                                                                                           | None                      |
+| 07-09-2026 | Java DSA: Doubly linked list - insertion (3 cases), deletion (3 cases), search, update, Circular Linked list (theory)                                                            | None                      |
+| 08-09-2026 | Java DSA: Doubly linked list - problems, circular linked list - problems, Stack and Queue Theory                                                                                 | None                      |
+
+

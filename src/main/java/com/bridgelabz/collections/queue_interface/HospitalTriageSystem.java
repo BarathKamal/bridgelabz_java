@@ -1,5 +1,9 @@
 package com.bridgelabz.collections.queue_interface;
 
+/*
+Program to demonstrate the implementation of Priority queue
+ */
+
 import java.util.*;
 
 class Patient {

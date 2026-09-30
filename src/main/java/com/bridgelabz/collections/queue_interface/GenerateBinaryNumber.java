@@ -1,5 +1,9 @@
 package com.bridgelabz.collections.queue_interface;
 
+/*
+Program to generate n binary numbers using Queue interface
+ */
+
 import java.util.Queue;
 import java.util.LinkedList;
 

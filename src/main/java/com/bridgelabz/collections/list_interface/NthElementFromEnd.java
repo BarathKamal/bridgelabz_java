@@ -1,5 +1,9 @@
 package com.bridgelabz.collections.list_interface;
 
+/*
+Program to find the nth element from the end of an arraylist
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

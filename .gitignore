@@ -3,3 +3,6 @@
 
 # Compiled Java output
 out/
+
+# Module level configurations
+*.iml

@@ -3,3 +3,6 @@
 
 # Compiled Java Output
 out/
+
+# IntelliJ .iml file
+bridgelabz_java.iml
